@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VendingOnTime</title>
+    <style>
+        body {
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+        }
+
+        .container {
+            text-align:center;
+            margin:150px;
+        }
+
+        .logo {
+            width: 100%;
+        }
+
+        .title {
+            margin-top:150px;
+            font-family:Helvetica,sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" alt="VendingOnTime logo" src ="https://raw.githubusercontent.com/VendingOnTime/vendingontime.github.io/master/assets/img/vending%20png.png" />
+        <h1 class="title">Próximamente<span id="counter"></span></h1>
+    </div>
+    <script>
+        (function () {
+            var count = 0;
+            var max = 4;
+
+
+            setInterval(function () {
+                var counterElem = document.getElementById("counter");
+                var counterElemText = "";
+                for (var i = 1; i <= count % max; i++) {
+                    counterElemText += ".";
+                }
+                count++;
+
+                counterElem.innerHTML = counterElemText;
+            }, 1000);
+        })();
+    </script>
+</body>
+</html>
