@@ -869,7 +869,7 @@ span.navbar-trigger-close a:hover {
 }
 @media (min-width: 1024px) {
   #meet-the-team .team-item.not-right-column.top-column {
-    margin-bottom: 0px;
+    margin-bottom: 30px;
   }
 }
 #meet-the-team .team-item.not-right-column {
@@ -877,7 +877,7 @@ span.navbar-trigger-close a:hover {
 }
 @media (min-width: 768px) {
   #meet-the-team .team-item.not-right-column {
-    margin-bottom: 0px;
+    margin-bottom: 30px;
   }
 }
 
