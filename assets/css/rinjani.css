@@ -736,7 +736,7 @@ span.navbar-trigger-close a:hover {
 #quote > .section-inner .section-content {
   padding-top: 100px;
   padding-bottom: 80px;
-  color: #b7ada4;
+  color: #ffffff;
 }
 #quote > .section-inner .section-content .quote-text > .quote-icon > i {
   color: #1abc9c;
@@ -903,7 +903,7 @@ span.navbar-trigger-close a:hover {
   background-image: url("../img/bg-coming-soon.jpg");
 }
 #coming-soon > .section-inner .section-content .section-title {
-  color: #b7ada4;
+  color: #ffffff;
 }
 #coming-soon > .section-inner .section-content .section-title > .section-line {
   background-color: #b7ada4;
@@ -924,7 +924,7 @@ span.navbar-trigger-close a:hover {
   margin-top: 50px;
 }
 #coming-soon > .section-inner .section-content .countdown-text > p {
-  color: #b7ada4;
+  color: #ffffff;
 }
 
 
@@ -935,7 +935,7 @@ span.navbar-trigger-close a:hover {
   background-image: url("../img/bg-contact-us.jpg");
 }
 #contact-us > .section-inner .section-content .section-title {
-  color: #b7ada4;
+  color: #ffffff;
 }
 #contact-us > .section-inner .section-content .section-title > .section-line {
   background-color: #b7ada4;
