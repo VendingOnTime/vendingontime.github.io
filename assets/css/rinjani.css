@@ -1141,3 +1141,12 @@ footer.footer #copyright p {
     text-align: left;
   }
 }
+
+/*---------------------------------------------------------------------*/
+/*  HELPER CLASSES
+/*---------------------------------------------------------------------*/
+
+.non-clickable {
+  pointer-events: none;
+  cursor: default;
+}
