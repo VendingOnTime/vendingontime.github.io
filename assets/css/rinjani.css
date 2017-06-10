@@ -957,6 +957,7 @@ span.navbar-trigger-close a:hover {
   letter-spacing: 0.05em;
 }
 #contact-us > .section-inner .section-content .form-group label.error {
+  color: #D8000C;
   position: absolute;
   top: -26px;
   right: 0;

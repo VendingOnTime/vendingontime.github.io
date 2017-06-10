@@ -89,6 +89,8 @@ $(function() {
     /*---------------------------------------*/
     /*  CONTACT FORM REQUEST
     /*---------------------------------------*/
+    $.validator.messages.required = "Este campo es obligatorio";
+    $.validator.messages.email = "Introduce un correo válido";
     $('.validate').validate();
     
     $(document).on('submit', '#contact-us-form', function(e){
